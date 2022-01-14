@@ -2,7 +2,7 @@
     background-image: url(./images/hero.jpg);
     background-size: cover;
     background-position: center;
-    opacity: 50%;
+    opacity: 80%;
 }
 
 .image {
@@ -17,3 +17,31 @@
   .image:hover {
     opacity: 0.3;
   }
+
+  #myimage {
+    border-radius: 50%;
+    width: 200px;
+    height: 275px;
+  }
+
+  footer {
+    height: 150px;
+    border-top: 4px solid var(--secondary-color);
+    background: var(--primary-color);
+    text-align: center;
+}
+
+footer h4 {
+    color: white;
+    font-family: var(--font-primary);
+    margin-top: 10px;
+}
+
+footer img {
+    border-radius: 50%;
+    width: 70x;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
